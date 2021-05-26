@@ -20,7 +20,7 @@ p {
 }
 
 .container {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -71,12 +71,6 @@ ul li {
   font-size: 55px;
 }
 
-@media (max-width: 1250px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 900px;
-  }
-}
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
